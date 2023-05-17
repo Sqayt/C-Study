@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Source.h"
 
 using namespace std;
 
@@ -133,6 +132,7 @@ void link()
     int *pa = &a;
 
     int &aref = a;
+    cout << a << " " << *pa << " " << &aref << endl;
 }
 
 int main()
